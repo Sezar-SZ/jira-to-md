@@ -29,7 +29,6 @@ NOTE: All conversion work bi-directionally (from jira to markdown and back again
 * Un-named links
 * Named links
 * Monospaced Text
-* ~~Citations~~ (Removed in 2.0.0)
 * Strikethroughs
 * Inserts
 * Superscripts
