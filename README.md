@@ -90,3 +90,10 @@ J2M.configureMarked({
   preserveExtraBlankLines: true
 });
 ```
+
+Or do it inline:
+
+```ts
+J2M.jiraToHtml(jira, { preserveExtraBlankLines: true })
+```
+
