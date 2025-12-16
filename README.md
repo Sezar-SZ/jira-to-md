@@ -69,16 +69,16 @@ h2. H2
 import J2M from "jira-to-md";
 
 // If converting from Markdown to Jira Wiki Syntax:
-const jira = J2M.to_jira(md);
+const jira = J2M.toJira(md);
 
 // If converting from Jira Wiki Syntax to Markdown:
-const md = J2M.to_markdown(jira);
+const md = J2M.toMarkdown(jira);
 
 // If converting from Markdown to HTML:
-const html = J2M.md_to_html(md);
+const html = J2M.mdToHtml(md);
 
 // If converting from JIRA Wiki Syntax to HTML:
-const html = J2M.jira_to_html(jira);
+const html = J2M.jiraToHtml(jira);
 ```
 
 By default, Markdown collapses multiple empty lines.
