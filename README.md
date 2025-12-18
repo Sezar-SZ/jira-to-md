@@ -11,7 +11,7 @@ This package is a fork of the J2M library by Kyle Farris, converted to TypeScrip
 ## Installation
 
 ```bash
-npm install jira2md
+npm install jira-to-md
 ```
 
 ## Supported Conversions
